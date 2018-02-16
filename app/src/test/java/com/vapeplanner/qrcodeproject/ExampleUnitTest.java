@@ -1,4 +1,4 @@
-package com.vapeplanner.qrcodeproyect;
+package com.vapeplanner.qrcodeproject;
 
 import org.junit.Test;
 

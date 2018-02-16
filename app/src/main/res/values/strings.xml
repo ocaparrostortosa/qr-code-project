@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">QrCodeProyect</string>
+    <string name="app_name">QrCode App</string>
     <string name="qrGeneratorTitle">Generar Código</string>
     <string name="etQrContent">Contenido del código (Mensaje, Página web, étc)</string>
     <string name="qrContentButton">GENERAR</string>
@@ -10,11 +10,11 @@
     <string name="errorNullBitmap">Código no generado aún</string>
     <string name="accept">ACEPTAR</string>
     <string name="correctImageSaved">¡Imagen guardada correctamente!</string>
-    <string name="errorNullFile">El código aún no se ha generado</string>
+    <string name="errorNullFile">El código aún no ha sido generado</string>
     <string name="codeNotCreatedYet">¡El código no ha sido creado aún!</string>
     <string name="qrScanerTitle">Escanear Código</string>
     <string name="codeGeneratedMessage">Código QR generado y enviado desde QRCodeGenerator</string>
-    <string name="formattedAppName">Generador y lector\nde Códigos QR</string>
+    <string name="formattedAppName">Generador y lector de Códigos QR</string>
     <string name="scanningMessage">Enfoca el Código QR para su escaneo</string>
     <string name="errorWhileScanningMessage">Escáner cancelado</string>
     <string name="qrContentType">TEXTO PLANO</string>
@@ -28,7 +28,7 @@
     <string name="clipboardText">Texto copiado al portapapeles</string>
     <string name="btnPhoneText">LLAMAR</string>
     <string name="btnYoutubeText">VER VÍDEO</string>
-    <string name="btnEmailText">ENVIAR E-MAIL</string>
+    <string name="btnEmailText">ENVIAR EMAIL</string>
     <string name="btnWebText">VISITAR WEB</string>
     <string name="btnPlaintText">COPIAR TEXTO</string>
 </resources>

@@ -1,4 +1,4 @@
-package com.vapeplanner.qrcodeproyect;
+package com.vapeplanner.qrcodeproject;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

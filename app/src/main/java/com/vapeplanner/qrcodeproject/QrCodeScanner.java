@@ -1,4 +1,4 @@
-package com.vapeplanner.qrcodeproyect;
+package com.vapeplanner.qrcodeproject;
 
 import android.app.Activity;
 import android.content.ClipData;
@@ -117,7 +117,7 @@ public class QrCodeScanner extends AppCompatActivity {
             //Phone action
             etContentTypeTitle.setText(getResources().getString(R.string.phoneTypeTitle));
             etContentTypePlainText.setText(response);
-            ivImagenType.setImageDrawable(getResources().getDrawable(R.drawable.ic_type_phone));
+            ivImagenType.setImageDrawable(getResources().getDrawable(R.drawable.ic_type_phone_number));
             btnAction.setText(getResources().getString(R.string.btnPhoneText));
             btnAction.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -129,7 +129,7 @@ public class QrCodeScanner extends AppCompatActivity {
             //Youtube action
             etContentTypeTitle.setText(getResources().getString(R.string.youtubeTypeTitle));
             etContentTypePlainText.setText(response);
-            ivImagenType.setImageDrawable(getResources().getDrawable(R.drawable.ic_type_youtube));
+            ivImagenType.setImageDrawable(getResources().getDrawable(R.drawable.ic_type_youtube_video));
             btnAction.setText(getResources().getString(R.string.btnYoutubeText));
             btnAction.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -141,7 +141,7 @@ public class QrCodeScanner extends AppCompatActivity {
             //Email action
             etContentTypeTitle.setText(getResources().getString(R.string.emailTypeTitle));
             etContentTypePlainText.setText(response);
-            ivImagenType.setImageDrawable(getResources().getDrawable(R.drawable.ic_type_email));
+            ivImagenType.setImageDrawable(getResources().getDrawable(R.drawable.ic_type_email_address));
             btnAction.setText(getResources().getString(R.string.btnEmailText));
             btnAction.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -153,7 +153,7 @@ public class QrCodeScanner extends AppCompatActivity {
             //Web action
             etContentTypeTitle.setText(getResources().getString(R.string.webTypeTitle));
             etContentTypePlainText.setText(response);
-            ivImagenType.setImageDrawable(getResources().getDrawable(R.drawable.ic_type_web));
+            ivImagenType.setImageDrawable(getResources().getDrawable(R.drawable.ic_type_web_site));
             btnAction.setText(getResources().getString(R.string.btnWebText));
             btnAction.setOnClickListener(new View.OnClickListener() {
                 @Override

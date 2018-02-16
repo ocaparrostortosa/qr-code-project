@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QrCode App</string>
+    <string name="youtubeTypeTitle">YOUTUBE VIDEO</string>
+    <string name="btnWebText">VISIT WEB</string>
+    <string name="btnYoutubeText">WATCH VIDEO</string>
+    <string name="qrContentType">PLANE TEXT</string>
+    <string name="clipboardText">Text copied to clipboard</string>
+    <string name="webTypeTitle">WEBSITE</string>
+    <string name="phoneTypeTitle">PHONE NUMBER</string>
+    <string name="btnPhoneText">CALL</string>
+    <string name="saveQrCodeButton">SAVE CODE</string>
+    <string name="qrGeneratorTitle">Code Generator</string>
+    <string name="qrContentButton">GENERATE</string>
+    <string name="formattedAppName">QR code generator and reader</string>
+    <string name="errorWhileScanningMessage">Scanner canceled</string>
+    <string name="qrScanerTitle">Scan code</string>
+    <string name="etWithoutContent">Error: Empty content</string>
+    <string name="btnEmailText">SEND EMAIL</string>
+    <string name="scanningMessage">Focus the QR Code for the scan</string>
+    <string name="errorNullFile">The code has not been generated yet</string>
+    <string name="emailTypeTitle">EMAIL ADDRESS</string>
+    <string name="btnPlaintText">COPY TEXT</string>
+    <string name="btnScannerAction">Copy text</string>
+    <string name="etQrContent">Content of the code (Message, Website, etc)</string>
+    <string name="qrContentPlainText">Content QR code ...</string>
+    <string name="qrContent">Content QR code</string>
+    <string name="shareQrCodeButton">SHARE CODE</string>
+    <string name="codeGeneratedMessage">QR code generated and sent from QRCodeGenerator</string>
+    <string name="errorNullBitmap">Code not generated yet</string>
+    <string name="etWithContent">Code generated</string>
+    <string name="accept">ACCEPT</string>
+    <string name="correctImageSaved">Image saved correctly!</string>
+    <string name="codeNotCreatedYet">The code has not been created yet!</string>
+</resources>

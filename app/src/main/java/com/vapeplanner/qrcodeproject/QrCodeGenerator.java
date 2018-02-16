@@ -1,4 +1,4 @@
-package com.vapeplanner.qrcodeproyect;
+package com.vapeplanner.qrcodeproject;
 
 import android.annotation.TargetApi;
 import android.content.Intent;
@@ -12,7 +12,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
@@ -36,8 +35,8 @@ public class QrCodeGenerator extends AppCompatActivity {
     private ImageView ivCodeContainer;
     private EditText etQrContent;
     private Button btnGenerateCode;
-    private ImageButton saveQrCodeButton;
-    private ImageButton shareQrCodeButton;
+    private ImageView saveQrCodeButton;
+    private ImageView shareQrCodeButton;
     private Toolbar toolbar;
     //Componentes librería ZXING :: Components of the ZXING library
     private MultiFormatWriter writer;
@@ -74,7 +73,7 @@ public class QrCodeGenerator extends AppCompatActivity {
             public void onClick(View v) {
                 valueOfEditText = etQrContent.getText().toString();
                 if(valueOfEditText.equals("")|| valueOfEditText == null){
-                    Toast.makeText(getApplicationContext(), getResources().getString(R.string.etWithoutContent), Toast.LENGTH_SHORT).show();
+                    showSnackbar(getResources().getString(R.string.etWithoutContent));
                 }else{
                     Toast.makeText(getApplicationContext(), getResources().getString(R.string.etWithContent), Toast.LENGTH_SHORT).show();
                     generateQrCode(valueOfEditText);
@@ -94,8 +93,9 @@ public class QrCodeGenerator extends AppCompatActivity {
             public void onClick(View v) {
                 if(codeFile == null) {
                     saveCodeInToFile();
+                }else if(codeFile.exists()) {
                     actionShareCode();
-                }else if(codeFile.exists()){
+                }else if(bitmap != null){
                     actionShareCode();
                 }else{
                     showSnackbar(getResources().getString(R.string.errorNullFile));

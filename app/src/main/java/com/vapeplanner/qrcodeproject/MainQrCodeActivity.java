@@ -1,4 +1,4 @@
-package com.vapeplanner.qrcodeproyect;
+package com.vapeplanner.qrcodeproject;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;

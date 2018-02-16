@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.vapeplanner.qrcodeproyect.QrCodeGenerator"
+    tools:context="com.vapeplanner.qrcodeproject.QrCodeGenerator"
     android:orientation="vertical"
     android:background="@color/backgroundColor"
     android:id="@+id/relativeLayout"
@@ -71,33 +71,42 @@
         android:layout_alignParentBottom="true"
         />
 
-    <ImageButton
-        android:id="@+id/saveQrCodeButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentBottom="true"
-        android:layout_margin="10dp"
-        android:layout_centerHorizontal="true"
-        android:text="@string/saveQrCodeButton"
-        android:textColor="@android:color/white"
-        android:backgroundTint="@color/colorPrimaryLight"
-        android:src="@drawable/ic_download_code"
-        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp"
+        android:layout_below="@id/view2"
+        android:orientation="horizontal"
+        android:gravity="bottom|right"
+        >
 
-    <ImageButton
-        android:id="@+id/shareQrCodeButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_margin="10dp"
-        android:layout_centerHorizontal="true"
-        android:text="@string/shareQrCodeButton"
-        android:textColor="@android:color/white"
-        android:backgroundTint="@color/colorPrimaryLight"
-        android:src="@drawable/ic_share_code"
-        />
+        <ImageView
+            android:id="@+id/saveQrCodeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="10dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/saveQrCodeButton"
+            android:textColor="@android:color/white"
+            android:src="@drawable/ic_download_code_btn"
+            />
+
+        <ImageView
+            android:id="@+id/shareQrCodeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="10dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/shareQrCodeButton"
+            android:textColor="@android:color/white"
+            android:src="@drawable/ic_share_code_btn"
+            />
+
+    </LinearLayout>
 
 
 </RelativeLayout>
