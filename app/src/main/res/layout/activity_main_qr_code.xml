@@ -6,7 +6,57 @@
     android:layout_height="match_parent"
     tools:context="com.vapeplanner.qrcodeproyect.MainQrCodeActivity"
     android:orientation="vertical"
+    android:background="@color/backgroundColor"
     >
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/formattedAppName"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center|bottom"
+            android:textStyle="bold"
+            android:textSize="40dp"
+            android:layout_marginBottom="5dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="vertical"
+        android:gravity="center|top"
+        >
+
+        <Button
+            android:id="@+id/btnGenerateCode"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/qrGeneratorTitle"
+            android:layout_margin="5dp"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@android:color/holo_red_light"
+            />
+
+        <Button
+            android:id="@+id/btnReadCode"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/qrScanerTitle"
+            android:layout_margin="5dp"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@android:color/holo_red_light"
+            />
+
+    </LinearLayout>
 
 </LinearLayout>

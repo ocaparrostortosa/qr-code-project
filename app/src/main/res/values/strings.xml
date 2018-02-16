@@ -1,3 +1,34 @@
 <resources>
     <string name="app_name">QrCodeProyect</string>
+    <string name="qrGeneratorTitle">Generar Código</string>
+    <string name="etQrContent">Contenido del código (Mensaje, Página web, étc)</string>
+    <string name="qrContentButton">GENERAR</string>
+    <string name="saveQrCodeButton">GUARDAR CÓDIGO</string>
+    <string name="shareQrCodeButton">COMPARTIR CÓDIGO</string>
+    <string name="etWithContent">Código generado</string>
+    <string name="etWithoutContent">Error: Contenido vacío</string>
+    <string name="errorNullBitmap">Código no generado aún</string>
+    <string name="accept">ACEPTAR</string>
+    <string name="correctImageSaved">¡Imagen guardada correctamente!</string>
+    <string name="errorNullFile">El código aún no se ha generado</string>
+    <string name="codeNotCreatedYet">¡El código no ha sido creado aún!</string>
+    <string name="qrScanerTitle">Escanear Código</string>
+    <string name="codeGeneratedMessage">Código QR generado y enviado desde QRCodeGenerator</string>
+    <string name="formattedAppName">Generador y lector\nde Códigos QR</string>
+    <string name="scanningMessage">Enfoca el Código QR para su escaneo</string>
+    <string name="errorWhileScanningMessage">Escáner cancelado</string>
+    <string name="qrContentType">TEXTO PLANO</string>
+    <string name="qrContent">Contenido código QR:</string>
+    <string name="btnScannerAction">Copiar texto</string>
+    <string name="qrContentPlainText">Contenido código QR...</string>
+    <string name="phoneTypeTitle">NÚMERO DE TELÉFONO</string>
+    <string name="youtubeTypeTitle">YOUTUBE VIDEO</string>
+    <string name="emailTypeTitle">CORREO ELECTRÓNICO</string>
+    <string name="webTypeTitle">SITIO WEB</string>
+    <string name="clipboardText">Texto copiado al portapapeles</string>
+    <string name="btnPhoneText">LLAMAR</string>
+    <string name="btnYoutubeText">VER VÍDEO</string>
+    <string name="btnEmailText">ENVIAR E-MAIL</string>
+    <string name="btnWebText">VISITAR WEB</string>
+    <string name="btnPlaintText">COPIAR TEXTO</string>
 </resources>
